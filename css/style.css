@@ -1,0 +1,69 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+nav {
+	position: fixed;
+	background: black;
+	color: lime;
+	width: 100%;
+	z-index: 9;
+}
+nav a {
+	color: lime;
+}
+main {
+	min-height: 100%;
+	position: absolute;
+	width: 100%;
+	top: 40px;
+}
+
+#workspace {
+	width: 70%;
+	height: 100%;
+	position: absolute;
+	/*background: red;*/
+}
+#workspace .tag-name {
+	display: none;
+}
+#workspace .container-fluid,
+#workspace .container {
+	max-width: 100%;
+	min-height: 50px;
+}
+
+#workspace.layout .container {
+	border : 1px dashed red;
+}
+#workspace.layout .row {
+	border : 1px dashed orange;
+	width: 100%;
+	min-height: 50px;
+}
+#tags {
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	left: 70%;
+	border-left: 1px solid silver;
+}
+.placeholder {
+	border: 2px dashed #eee;
+	padding: 3px;
+	height: 70px;
+}
+
+table {
+	padding: 5px;
+}
+table td {
+	padding: 2px;
+}
+.hidden {
+	display: none;
+}
+.left { float: left;}
+.right { float: right;}
+.clearfix { clear: both;}
